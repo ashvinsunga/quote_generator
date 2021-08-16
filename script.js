@@ -20,7 +20,7 @@ function hideLoadingSpinner(){
 
 function genAPIQuotes(){
     // Pick a random quote from API_quotes
-    const quote = API_quotes[Math.floor(Math.random() * localQuotes.length)]
+    const quote = API_quotes[Math.floor(Math.random() * API_quotes.length)]
 
     // If Author is blank, display 'Unknown'
     if (!quote.author) {
